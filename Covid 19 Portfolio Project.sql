@@ -73,7 +73,7 @@ AND d.date = v.date
 WHERE d.continent is not null
 ORDER BY 2,3
 
--- CTE
+-- Using CTE
 
 WITH Population_VS_Vaccination (continent,location,date,population,new_vaccination, RollingPeopleVaccinated)
 AS (
